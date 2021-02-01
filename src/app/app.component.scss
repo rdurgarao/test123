@@ -1,0 +1,21 @@
+#sidenav{
+    width: 200px;
+    float: left;
+}
+#page-content{
+    width: calc(100% - 200px);
+    float: left;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: grey;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: grey;
+}

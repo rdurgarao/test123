@@ -1,0 +1,16 @@
+<ul>
+    <li *ngFor="let book of books" class="card">
+        {{book.name}}
+        {{book.description}}
+        <img src="{{book.imageURL}}" height="200" width="auto"/>
+        {{book.author}}
+    </li>
+</ul>
+
+<div *ngIf="!category">
+    Select category
+</div>
+
+<div *ngIf="category && books.length == 0">
+    No Books in following category
+</div>

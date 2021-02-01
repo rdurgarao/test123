@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let category of categories" [ngClass]="activeCategory && category.name === activeCategory.name ? 'active' : ''">
+        <span (click)="setCategory(category)">{{category.name}}</span>
+    </li>
+</ul>
+
+<app-books [category]="activeCategory"></app-books>
