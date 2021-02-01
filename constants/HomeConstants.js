@@ -1,0 +1,14 @@
+export const BASE_URL = "https://tms-api-v1.herokuapp.com/";
+export const GET_USERS_LIST_URL = BASE_URL + "users/getAll";
+export const GET_USER_URL = BASE_URL + "users/getById";
+export const CREATE_USER_URL = BASE_URL + "users/create";
+export const GET_ALL_USERS = "ALL_USERS";
+export const GET_USER_DATA_URL = BASE_URL + "usersTimesheet/getById";
+export const CREATE_USER_DATA_URL = BASE_URL + "usersTimesheet/create";
+export const GET_USERS_SETTINGS_URL = BASE_URL + "usersSetting/getByUserId";
+export const UPDATE_USERS_SETTINGS_URL = BASE_URL + "usersSetting/update";
+export const FORGOT_PASSWORD_URL = BASE_URL + "forgotPassword/sendLink";
+export const RESET_PASSWORD_URL = BASE_URL + "forgotPassword/reset";
+export const UPDATE_PASSWORD_URL = BASE_URL + "forgotPassword/update";
+export const UPDATE_PASSWORD_WITHOUT_LINK_URL = BASE_URL + "users/update";
+export const UPDATE_USER_FIELDS_URL = BASE_URL + "users/updateUserFields";

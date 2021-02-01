@@ -1,0 +1,9 @@
+@import url("./components/loginComponent/Login.css");
+@import url("./components/profileComponent/Profile.css");
+@import url("./components/tmsComponent/TMSTab.css");
+@import url("./components/accomodationComponent/AccommodationTab.css");
+@import url("./components/registerComponent/Register.css");
+@import url("./commons/sidebar/Sidebar.css");
+@import url("./commons/footer/Footer.css");
+@import url("./components/clientComponent/Client.css");
+@import url("./components/userComponent/User.css");

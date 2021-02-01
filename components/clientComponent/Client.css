@@ -1,0 +1,80 @@
+form.background-color {
+  background-color: #fff;
+  padding: 10% 7%;
+}
+.col-md-3 {
+  background: #0e4372;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact-info {
+  margin-top: 10%;
+  color: #fff;
+}
+.contact-info h2 {
+  margin-bottom: 10%;
+}
+.col-md-9 {
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact-form label {
+  font-weight: 600;
+}
+.contact-form button {
+  background: #6675df;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+.contact-form button:focus {
+  box-shadow: none;
+}
+.minheight {
+  min-height: 100vh;
+  margin: 0;
+}
+.minheight select {
+  width: 100%;
+}
+.minheight .profile100-form {
+  background-color: #fff;
+  padding: 55px 55px 0px 55px;
+}
+.minheight .contact-form label {
+  font-weight: normal;
+}
+.minheight .table {
+  margin-top: 50px;
+}
+.minheight button .fa-trash {
+  color: red;
+}
+.contact-form .deleteicon {
+  background: transparent;
+  width: auto;
+  margin-left: 3%;
+}
+.minheight input#datepicker {
+  width: auto !important;
+  border: 1px solid #ccc !important;
+  padding-right: 15px;
+  /* padding-left: 15px !important; */
+  margin-left: 15px;
+}
+.minheight textarea {
+  border: 1px solid #ccc;
+  width: 100%;
+}
+.minheight .sc-ifAKCX.cXcRCo {
+  z-index: 9999;
+}
+.client-header {
+  background-color: #0e4372;
+}
+.client-list {
+  background-color: transparent !important;
+}

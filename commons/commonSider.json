@@ -1,0 +1,14 @@
+{
+  "Client": {
+    "Add Client": ["fa fa-user-o", "client", "/client"],
+    "Manage Clients": ["fa fa-address-card-o", "clientlist", "/clientlist"]
+  },
+  "Projects": {
+    "Add Project": ["fa fa-user-o", "project", "/project"],
+    "Manage Project": ["fa fa-address-card-o", "projectlist", "/projectlist"]
+  },
+  "Users": {
+    "Add User": ["fa fa-user-o", "user", "/user"],
+    "Manage Users": ["fa fa-address-card-o", "userlist", "/userlist"]
+  }
+}

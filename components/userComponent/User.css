@@ -1,0 +1,26 @@
+.signup100-more {
+  background-image: url("../../assets/bg-02.jpg");
+}
+
+#client-grid > tr > td {
+  padding: 15px;
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 12px;
+  border-bottom: solid 1px #999;
+}
+
+#client-grid.tbl-content {
+  display: table-row-group;
+}
+
+#tms-users > thead > tr > th {
+  table-layout: fixed;
+  padding: 20px 15px;
+  text-align: left;
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+}
